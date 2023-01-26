@@ -10,11 +10,43 @@
     --cor4:#f7f4e8;
     --cor:;
 }
-body{
-    background-color: var(--cor3);
+head{
+    background-color:var(--cor2);
+}
+header{
+    font-size: 2rem;
+}
+section{
+    background-color: #d83a31;
+}
+form{
+    background-color: var(--cor2);
+    margin: auto;
+    border: solid 1px black;
+    width: 400px;
+    height: 500px;
 }
 footer{
     background-color: var(--cor3);
     width: auto;
-    
+    height: 40px;
+}
+.nav.img{
+    font-size: 14px;
+
+}
+div #op_entrar{
+    display:block;
+    background: fixed;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
+span img{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+
 }
