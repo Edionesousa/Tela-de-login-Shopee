@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font: var(--font-family);
-    font-size: 25px;
 }
 :root{
     --font-family: Arial, Helvetica, sans-serif;
@@ -21,15 +20,16 @@ body{
     margin: auto;
 }
 section{
-    background-color: #d83a31;
+    margin: auto;
+    background-color: #d3453d;
 }
 form{
-    margin: auto;
+    margin-left: auto;
     background-color: #ffffff;
-    border: solid 1px black;
+    border: solid 4px var(--cor3);
     padding: 15px;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 500px; 
 }
 form .img{
     position:relative;
@@ -50,7 +50,6 @@ form input{
     align-items: center;
     padding: 15px;
     gap: 10px;
-  
 }
 button{
     background-color:var(--cor1);
@@ -62,15 +61,6 @@ button{
     flex-wrap: nowrap;
     align-items: center;
     padding-bottom:15px;
-
-
-  
-
-}
-footer{
-    background-color: var(--cor3);
-    width:auto;
-    height: 700px;
 }
 span img{
     display: inline-block;
@@ -79,16 +69,15 @@ span img{
     text-align: center;
     width: 30px;
     height: 30px;
-
 }
-
 a{
-    width: 10px;
+    width: 5px;
     height: 10px;
     padding: -10px;
     margin: 5px;
 }
-div .img{
+div.img{
+    width: 10px;
     text-align: center;
     gap: 5px;
     padding: -50%;
