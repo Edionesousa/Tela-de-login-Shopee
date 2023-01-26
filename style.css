@@ -2,51 +2,95 @@
 *{
     margin: 0;
     padding: 0;
+    font: var(--font-family);
+    font-size: 25px;
 }
 :root{
+    --font-family: Arial, Helvetica, sans-serif;
     --cor1:#f4324a;
     --cor2:#ffffff;
     --cor3:#d83a31;
     --cor4:#f7f4e8;
-    --cor:;
 }
-head{
-    background-color:var(--cor2);
+label{
+    display: inline-block;
+    margin: 10px 10px;
+    padding-bottom: 30px;
 }
-header{
-    font-size: 2rem;
+body{
+    margin: auto;
 }
 section{
     background-color: #d83a31;
 }
 form{
-    background-color: var(--cor2);
     margin: auto;
+    background-color: #ffffff;
     border: solid 1px black;
-    width: 400px;
+    padding: 15px;
+    width: 500px;
     height: 500px;
+}
+form .img{
+    position:relative;
+    margin-right:auto;
+    background-color: #f7f4e8;
+    width: 500px;
+    height: 300px;
+    display: flexbox;
+
+}
+form input{
+    display: block;
+    padding-bottom: 30px;
+    padding-bottom: 20px;
+    width: 80%;
+    margin: auto;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+  
+}
+button{
+    background-color:var(--cor1);
+    border: none;
+    border-radius: 5px;
+    display: block;
+    width: 80%;
+    margin: auto;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-bottom:15px;
+
+
+  
+
 }
 footer{
     background-color: var(--cor3);
-    width: auto;
-    height: 40px;
-}
-.nav.img{
-    font-size: 14px;
-
-}
-div #op_entrar{
-    display:block;
-    background: fixed;
-    width: 400px;
-    text-align: center;
-    margin: auto;
+    width:auto;
+    height: 700px;
 }
 span img{
-    position: relative;
+    display: inline-block;
+    margin: auto;
     margin: auto;
     text-align: center;
     width: 30px;
     height: 30px;
 
+}
+
+a{
+    width: 10px;
+    height: 10px;
+    padding: -10px;
+    margin: 5px;
+}
+div .img{
+    text-align: center;
+    gap: 5px;
+    padding: -50%;
+    margin: -50%;
 }
