@@ -73,13 +73,14 @@ span img{
 a{
     width: 5px;
     height: 10px;
-    padding: -10px;
-    margin: 5px;
+    padding: 10px;
+    margin: 13px;
+    border: solid 1px black;
+
 }
-div.img{
+img{
     width: 10px;
     text-align: center;
-    gap: 5px;
     padding: -50%;
     margin: -50%;
 }
