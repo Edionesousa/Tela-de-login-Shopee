@@ -31,6 +31,9 @@ form{
     width: 400px;
     height: 500px; 
 }
+input{
+    padding-bottom: 40px;
+}
 form .img{
     position:relative;
     margin-right:auto;
