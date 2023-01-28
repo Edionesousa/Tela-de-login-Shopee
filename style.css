@@ -19,6 +19,7 @@ h1{
 }
 body{
     display: flexbox;
+    font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     height: 725px;
     background-color:#d81c20;
@@ -32,6 +33,7 @@ div#img1{
 }
 html{
     background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -72,6 +74,7 @@ div{
 div a button{
     margin: auto;
     background-color: #ee4d2d;
+    font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     border: none;
     border-radius: 2px;
@@ -90,6 +93,7 @@ div#logar button:hover{
 
 div #afg{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
     width: 50px;
