@@ -14,7 +14,7 @@ h1{
     display: flex;
     width: 300px;
     text-align: right;
-    margin: 14px;
+    margin: 5px;
 
 }
 body{
@@ -44,28 +44,28 @@ section{
     max-width: 1500px;
     height: 500px;
     margin-top: 25px;
-    margin-bottom: 25px;
     border-radius: 10px;
     background-color:#f7f4e8;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.256);
 }
 div#formulario{
     margin: auto;
-    display: block;
-    width: 200px;
+    display: contents;
+    width: -100px;
     margin: 0;
     padding: 0;
-    font-size: 14px;
+    border: none;
 }
 input{
     margin: auto;
-    width: 100%;
+    width: 90%;
     height: 30px;
     margin: 10px;
     padding: 0px;
 }
 div{
     padding: 10px;  
-    text-align: right;
+    text-align: center;
 
 }
 div a button{
@@ -74,7 +74,7 @@ div a button{
     text-decoration:#ffffff;
     border: none;
     border-radius: 4px;
-    width:100%;
+    width:90%;
     height: 30px;
 }
 div#button{
@@ -83,12 +83,11 @@ div#button{
     width:auto;
 }
 
-div.afg{
-    display:flex ;
-    margin: auto;
-    margin-left:  20% ;
-    padding: 0;
-    width: auto;
+div #afg{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
     height: 30px;
 
 }
