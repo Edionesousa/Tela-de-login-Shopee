@@ -39,12 +39,12 @@ html{
 section{
     margin: auto;
     display: block;
-    width: 500px;
+    width: 400px;
     min-width: 100px;
     max-width: 1500px;
     height: 500px;
     margin-top: 25px;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color:#f7f4e8;
     box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.256);
 }
@@ -58,6 +58,7 @@ div#formulario{
 }
 input{
     margin: auto;
+    margin-right:5px;
     width: 90%;
     height: 30px;
     margin: 10px;
@@ -73,7 +74,7 @@ div a button{
     background-color: #ee4d2d;
     text-decoration:#ffffff;
     border: none;
-    border-radius: 4px;
+    border-radius: 2px;
     width:90%;
     height: 30px;
 }
