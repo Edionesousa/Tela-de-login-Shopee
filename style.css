@@ -72,7 +72,7 @@ div{
 div a button{
     margin: auto;
     background-color: #ee4d2d;
-    text-decoration:#ffffff;
+    color: #ffffff;
     border: none;
     border-radius: 2px;
     width:90%;
@@ -80,8 +80,12 @@ div a button{
 }
 div#button{
     display: flex;
-    background-color: #ffffff;
+    background-color:#ee4d2d;
     width:auto;
+}
+div#logar button:hover{
+    background-color: #e04628;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.213);
 }
 
 div #afg{
