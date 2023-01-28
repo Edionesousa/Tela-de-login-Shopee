@@ -47,7 +47,7 @@ section{
     height: 500px;
     margin-top: 25px;
     border-radius: 5px;
-    background-color:#f7f4e8;
+    background-color:#ffffff;
     box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.256);
 }
 div#formulario{
@@ -83,6 +83,7 @@ div a button{
 }
 div#button{
     display: flex;
+    margin: 3px;
     background-color:#ee4d2d;
     width:auto;
 }
@@ -91,15 +92,6 @@ div#logar button:hover{
     box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.213);
 }
 
-div #afg{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    padding: 0px;
-    width: 50px;
-    height: 30px;
-
-}
 
 span img{
     display: inline-block;
@@ -109,10 +101,21 @@ span img{
     width: 30px;
     height: 30px;
 }
-.img{
-    background-color:#f7f4e8;
-    width: 15px;
-    border: solid 1px black;
+div.imagem{
+    background-color:#ffffff;
+    padding: 5px;
+    margin: 0px;
+    display: flex;
+    width: 100px;
+    height: 30px;
+    border: solid 1px bla;
+}
+div.afg{
+    padding: 9px;
+    margin: -1px;
 
-
+}
+div#afg{
+    margin: 0px;
+    padding: 0px;
 }
